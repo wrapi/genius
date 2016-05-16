@@ -1,0 +1,39 @@
+{
+  "name": "genius-wrapi",
+  "version": "0.1.0",
+  "description": "Wrapper for Genius API",
+  "homepage": "https://github.com/wrapi",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wrapi/genius.git"
+  },
+  "keywords": [
+    "genius",
+    "wrapi",
+    "REST",
+    "API",
+    "api wrapper",
+    "genius-api",
+    "genius-web-api",
+    "genius wrapper"
+  ],
+  "author": "wrapi",
+  "contributors": [
+    "N. Palani Kumanan"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "bugs": {
+    "url": "https://github.com/wrapi/genius/issues"
+  },
+  "dependencies": {
+    "wrapi": "^0.1.8"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}

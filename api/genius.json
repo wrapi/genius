@@ -1,0 +1,58 @@
+{
+	"annotations.get": {
+		"method": "GET",
+		"path": "annotations/:id"
+	},
+	"annotations.create": {
+		"method": "POST",
+		"path": "annotations"
+	},
+	"annotations.update": {
+		"method": "PUT",
+		"path": "annotations/:id"
+	},
+	"annotations.delete": {
+		"method": "DELETE",
+		"path": "annotations/:id"
+	},
+	"annotations.upvote": {
+		"method": "PUT",
+		"path": "annotations/:id/upvote"
+	},
+	"annotations.unvote": {
+		"method": "PUT",
+		"path": "annotations/:id/unvote"
+	},
+	"annotations.downvote": {
+		"method": "PUT",
+		"path": "annotations/:id/downvote"
+	},
+	"referents": {
+		"method": "GET",
+		"path": "referents"
+	},
+	"songs": {
+		"method": "GET",
+		"path": "songs/:id"
+	},
+	"artists": {
+		"method": "GET",
+		"path": "artists/:id"
+	},
+	"artists.songs": {
+		"method": "GET",
+		"path": "artists/:id/songs"
+	},
+	"webpages.lookup": {
+		"method": "GET",
+		"path": "webpages/lookup"
+	},
+	"search": {
+		"method": "GET",
+		"path": "search"
+	},
+	"account": {
+		"method": "GET",
+		"path": "account"
+	}
+}
