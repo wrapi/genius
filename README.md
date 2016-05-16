@@ -13,7 +13,7 @@ npm install genius-wrapi --save
 
 ## Usage
 
-Create a client object to connect to Genius API [endpoints](https://docs.genius.com/#resources-h1).
+Create a client object with the access_token to connect to Genius API [endpoints](https://docs.genius.com/#resources-h1).
 
 ```JS
 var geniusWrapi = require('genius-wrapi');
@@ -27,10 +27,11 @@ Provide parameters and a callback.
 
 API calls follow this syntax:
 
-`client.apimethod(param1, ..., queryString, callback);`
+`client.apimethod(param1, ..., queryString, post_payload, callback);`
 
 * `param` - (*if required*) url parameters - eg: For [annotations.get](#annotations.get) the value for `:id`.
 * `queryString` - (*as required*) API method parameters as key-value pairs.
+* `post_payload` - (*as required*) payload for POST requests - eg [annotations.create](#annotations.create)
 
 ### Examples
 
@@ -95,7 +96,7 @@ client.webpages.lookup(
 );
 ```
 
-#### Search documents hosted on Genius..
+#### Search documents hosted on Genius.
 ```JS
 client.search(
   {
